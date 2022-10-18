@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GFCL PROJECT</title>
+</head>
+<style type="text/css">
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+	nav{
+		display: flex;
+	    flex-direction: row;
+	    justify-content:space-between;
+		background-color: black;
+		padding: 30px 30px;
+		width: 100%;
+		position: fixed;
+	}
+	header{
+		text-align: center;
+	}
+	#two{
+		justify-content: space-around;
+	}
+	#three{
+		margin-right: 80px;
+		margin-left: 80px;
+	}
+	input{
+		padding: 10px 20px;
+		border-radius: 6px;
+	}
+	#four{
+		padding: 10px 10px;
+		margin-left: -6px;
+		border-radius: 6px;
+		background-color: #006600;
+		color: antiquewhite;
+	}
+	a{
+		text-decoration: none;
+		margin-left: 150px;
+		font-size: 22px;
+		color: antiquewhite;
+	}
+	#five{
+		padding: 10px 13px;
+		background-color: #006600;
+		border-radius: 6px;
+		font-size: 20px;
+		color: antiquewhite;
+	}
+	.content{
+		position: absolute;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.5);
+		color: #f1f1f1;
+		width: 100%;
+		padding: 20px;
+	}
+	h1{
+		color: antiquewhite;
+	}
+	#seven{
+		display: grid;
+		grid-template-columns: 420px 420px 420px;
+		grid-gap: 40px;
+		justify-content: center;
+		box-shadow: 0px -2px 0px  grey;
+	}
+	img{
+		width:440px;
+		height: 290px;
+		border-radius: 8px;
+	}
+	.zero{
+		font-size: 22px;
+		font-weight: 30px;
+		color: blueviolet;
+	}
+	footer{
+		display: grid;
+		grid-template-columns: 350px 350px 350px;
+		grid-gap: 75px;
+		justify-content: center;
+		background-color: #333333;
+		height: 400px;
+		margin-top: 40px;
+	}
+	.valid{
+		font-size: 25px;
+		color: antiquewhite;
+		margin-top: 40px;
+	}
+	p{
+		color: white;
+	}
+</style>
+<body>
+	<nav>
+		<span id="one" style="color: lightcoral; font-size: 40px; padding: 8px 35px; background-color: #006600; border-radius: 50%; text-align: center;">ROVINA<br>CLINICS</span>
+		<span id="two">
+			<a href="#">Find a Doctor</a>
+	  	    <a href="#">Treatments</a>
+	  	    <a href="#">Locations</a>
+	  	    <a href="#">Patients & Visitors</a>
+	  	    <span id="three">
+	  	    <input  type="text" placeholder="Search...">
+	  	    <button id="four" >Search</button>
+	  	</span>
+		</span>
+	</nav>
+	<header>
+			<video autoplay muted loop id="myvideo">
+			<source src="video.mp4" type="video/mp4">	
+			</video>
+		<div class="content">
+			<h1>Flu vaccination appointments are<br> available at sellect Rovina Clinics.</h1>
+			<button id="five">Find a Doctor</button>
+		</div>
+	</header>
+	<span>
+		<h1 id="six" style="font-size: 50px; text-align: center; color: lightcoral;">What's New</h1>
+		<main id="seven">
+			<span>
+				<img src="hos1.jpg">
+				<p class="zero">Learning the Cause of a Loved One's<br> Sudden Death Can Protect You and Your<br> Family</p>
+			</span>
+			<span>
+				<img src="hos4.jpg">
+				<p class="zero">Lead-Based Shields No Longer<br> Recommended For Routine X-RAYS</p>
+			</span>
+			<span>
+				<img src="hos5.jpg">
+				<p class="zero">Hepatitis B-Positive Liver Transplant<br> Saves a Middle-Aged Woman With End-Stage<br> Liver Disease</p>
+			</span>
+		</main>
+	</span>
+	<main id="eight">
+		<span>
+			<h2 class="null" style="color: lightcoral; text-align: center;">Support Rovina Clinics with a Donation To Our COVID-19 Respond Funds</h2>
+			<button class="void" style="color: white; padding: 12px 100px; background-color: blueviolet; font-size: large; border-radius: 6px; margin-left: 750px;">Make a Gift</button>
+		</span>
+	</main>
+	<footer>
+		<span>
+			<p class="valid">Rovina Clinic Anti-Racism Pledge<br>Notice of Nondiscrimination<br>Notice of Privacy Practices<br>Terms and Conditions<br>Website Privacy Policy</p>
+		</span>
+		<span>
+			<p class="valid">Rovina Clinic Children's<br>Rovina Clinic School of Medicine<br>Rovina Clinic School of Nursing<br>Rovina Clinic University</p>
+		</span>
+		<span>
+			<p class="valid">About Rovina Clinic<br>Careers<br>Contact Us<br>Email Sign Up<br>Giving<br>Newsroom<br>Referring Physicians</p>
+		</span>
+		<p>Copyrights &#169; 2004-2022 Rovina Clinic University Health System</p>
+	</footer>
+</body>
+</html>
